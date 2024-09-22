@@ -24,6 +24,8 @@ or just: pip install opencv-python numpy matplotlib
 * (check the FACE shell file comments to understand how and where to save the images in order to work)
 * bash FACE.sh
 
+As i said earlier, it's not perfect, so if doesn't recognize some faces in some instances - it's normal
+
 ## Acknowledgments
 
 This project uses the Single Shot MultiBox Detector (SSD) algorithm for face detection. The SSD algorithm is described in the following paper:
