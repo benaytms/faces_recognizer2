@@ -11,9 +11,9 @@ It's able to find faces in much harder instances and situations; Even though it'
 
 # If you want to test it  
 You'll need these packages:  
-OpenCV: pip install opencv-python  
-NumPy: pip install numpy
-MatplotLib: pip install matplotlib
+* OpenCV: pip install opencv-python  
+* NumPy: pip install numpy
+* MatplotLib: pip install matplotlib
 
 or just: pip install opencv-python numpy matplotlib
 
