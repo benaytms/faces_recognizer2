@@ -22,3 +22,11 @@ or just: pip install opencv-python numpy matplotlib
 * cd faces_recognizer2  
 - you'll need to check the FACE shell file to understand how and where to save the images in order to work
 - bash FACE.sh
+
+## Acknowledgments
+
+This project uses the Single Shot MultiBox Detector (SSD) algorithm for face detection. The SSD algorithm is described in the following paper:
+
+- Liu, W., Anguelov, D., Erhan, D., Szegedy, C., & Tyagi, A. (2016). SSD: Single Shot MultiBox Detector. In European Conference on Computer Vision (ECCV).
+
+For more details, refer to the [original paper](https://arxiv.org/abs/1512.02325) and the [Caffe model repository](https://github.com/weiliu89/caffe/tree/ssd).
