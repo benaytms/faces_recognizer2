@@ -24,7 +24,7 @@ or just: pip install opencv-python numpy matplotlib
 * (check the FACE shell file comments to understand how and where to save the images in order to work)
 * bash FACE.sh
 
-As i said earlier, it's not perfect, so don't worry if some faces it doesn't recognize.  
+As i said earlier, it's not perfect, so don't worry if some faces don't get recognize.  
 Should work fine in most cases though.
 
 ## Acknowledgments
