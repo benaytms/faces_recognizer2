@@ -9,7 +9,7 @@ This second one in compensation works much better, it uses Single Shot MultiBox 
 which is a classifier that uses a single neural network.  
 It's able to find faces in much harder instances and situations; Even though it's not perfect - comes closer than the former.
 
-# If you want to test it  
+## If you want to test it  
 You'll need these packages:  
 * OpenCV: pip install opencv-python  
 * NumPy: pip install numpy
@@ -17,4 +17,8 @@ You'll need these packages:
 
 or just: pip install opencv-python numpy matplotlib
 
-# To run
+## To run
+* git clone https://github.com/benaytms/faces_recognizer2.git
+* cd faces_recognizer2
+* first, you'll need to check the FACE shell file to understand how to save the images in order to work
+* bash FACE.sh
