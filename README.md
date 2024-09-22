@@ -1,4 +1,4 @@
-## Face Recognizer Program  
+# Face Recognizer Program  
 
 # Similar to the other face_recognizer but with improvements  
 
