@@ -11,7 +11,7 @@ SOURCE_FOLDER="files"
 PYTHON_SCRIPT="scripts/FACE2.py"
 # this is the python script with the face recognition algorithm
 
-# you don't need to change this (unless you want to use the previous version, FACE1.py)
+# you don't need to change this (unless you want to use the previous version, FACE1.py, which i don't recommend)
 
 SAVE_FOLDER="recognized_files"
 # this is where the files will be saved after you use the script
