@@ -8,7 +8,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from time import sleep
 
-def plotshow(image, flag, duration=1):
+def plotshow(image, flag, duration=0.65):
     if flag == 'gray':
         plt.imshow(image, cmap='gray')
     else:
@@ -51,7 +51,7 @@ if faces_found:
     print(f"image saved at: {output_path}")
 else:
     print("no faces found")
-    sleep(1.125)
+    sleep(0.65)
     
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-plotshow(img_rgb, 'not_gray', duration=1.25)
+plotshow(img_rgb, 'not_gray', duration=1.2)
