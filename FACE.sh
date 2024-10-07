@@ -18,6 +18,7 @@ PYTHON_SCRIPT="./scripts/FACE2.py"
 
 mkdir -p "$SOURCE_FOLDER"
 mkdir -p "$SAVE_FOLDER"
+# this will make sure the folders exist
 
 for img in $(ls "$SOURCE_FOLDER"/image_* | sort -V); do
     # this will go through the source_folder, using the pattern image_*
