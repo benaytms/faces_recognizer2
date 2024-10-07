@@ -1,6 +1,3 @@
-##  first try using CascadeClassifier with haarcascades
-## didn't work great
-
 import cv2
 import sys
 from time import sleep
@@ -17,7 +14,7 @@ def plotshow(image, flag):
     
     plt.axis('off')
     plt.show(block=False)
-    plt.pause(0.5)
+    plt.pause(1.5)
 
 IMG_PATH = sys.argv[1]
 img = cv2.imread(IMG_PATH)
@@ -27,7 +24,7 @@ face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_fro
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plotshow(img_gray, 'gray')
 
-faces = face_classifier.detectMultiScale(img_gray, scaleFactor=1.05, minNeighbors=3)
+faces = face_classifier.detectMultiScale(img_gray, scaleFactor=1.1, minNeighbors=5, minSize=(30,30))
 
 if len(faces) == ():
     print("no faces found")
@@ -38,23 +35,3 @@ for (x, y, w, h) in faces:
     
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plotshow(img_rgb, 'not_gray')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
