@@ -1,5 +1,7 @@
 ### ***Face Recognizer Program***  
 
+![the gang gets recognized](image.png)
+
 The first program (which is included in this too, FACE.py) uses Haar Cascade Classifier  
 which doesn't work great when faces aren't frontal and very clear to see.  
 
