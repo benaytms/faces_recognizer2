@@ -18,8 +18,10 @@ You'll need these packages:
 * *OpenCV: pip install opencv-python*  
 * *NumPy: pip install numpy*
 * *MatplotLib: pip install matplotlib*
-
 or just: *pip install opencv-python numpy matplotlib*
+
+#### *note*
+* images must be png, jpg, jpeg or webp
 
 ### ***To run***
 * *git clone https://github.com/benaytms/faces_recognizer2.git*
