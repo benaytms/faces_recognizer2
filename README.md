@@ -1,15 +1,13 @@
-# Face Recognizer Program  
-
-# Similar to the other face_recognizer but with improvements  
+### ***Face Recognizer Program***  
 
 The first program (which is included in this too, FACE.py) uses Haar Cascade Classifier  
 which doesn't work great when faces aren't frontal and very clear to see.  
 
-This second one in compensation works much better, it uses Single Shot MultiBox Detector (SSD)
+This second one works much better, it uses Single Shot MultiBox Detector (SSD)
 which is a classifier that uses a single neural network.  
 It's able to find faces in much harder instances and situations; Even though it's not perfect - comes closer than the former.
 
-## If you want to test it  
+### ***If you want to test it***  
 You'll need these packages:  
 * OpenCV: pip install opencv-python  
 * NumPy: pip install numpy
@@ -17,7 +15,7 @@ You'll need these packages:
 
 or just: pip install opencv-python numpy matplotlib
 
-## To run
+### ***To run***
 * git clone https://github.com/benaytms/faces_recognizer2.git
 * cd faces_recognizer2
 * mkdir files recognized_files  
@@ -27,7 +25,7 @@ or just: pip install opencv-python numpy matplotlib
 As i said earlier, it's not perfect, so don't worry if some faces don't get recognize.  
 Should work fine in most cases though.
 
-## Acknowledgments
+### ***Acknowledgments***
 
 This project uses the Single Shot MultiBox Detector (SSD) algorithm for face detection. The SSD algorithm is described in the following paper:
 
