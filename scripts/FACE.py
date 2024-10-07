@@ -3,8 +3,11 @@
 
 import cv2
 import sys
-from matplotlib import pyplot as plt
 from time import sleep
+
+import matplotlib
+matplotlib.use("tkagg")
+import matplotlib.pyplot as plt
 
 def plotshow(image, flag):
     if flag == 'gray':
