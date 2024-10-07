@@ -18,7 +18,7 @@ or just: pip install opencv-python numpy matplotlib
 ### ***To run***
 * *git clone https://github.com/benaytms/faces_recognizer2.git*
 * *cd faces_recognizer2*
-* SEE THE COMMENTS ON FACE.sh FILE TO SEE HOW TO SAVE THE IMAGES YOU WANT TO TEST
+* CHECK THE COMMENTS ON FACE.sh FILE TO SEE HOW TO SAVE THE IMAGES YOU WANT TO TEST
 * chmod +x FACE.sh
 * ./FACE.sh
 
