@@ -1,6 +1,3 @@
-## second try using now dnn (deep neural networks)
-## much better result
-
 import cv2
 import sys
 import os
@@ -11,7 +8,7 @@ import matplotlib
 matplotlib.use("tkagg")
 import matplotlib.pyplot as plt
 
-def plotshow(image, flag, duration=0.65):
+def plotshow(image, flag, duration=0.6):
     if flag == 'gray':
         plt.imshow(image, cmap='gray')
     else:
@@ -54,7 +51,7 @@ if faces_found:
     print(f"image saved at: {output_path}")
 else:
     print("no faces found")
-    sleep(0.65)
+    sleep(0.6)
     
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-plotshow(img_rgb, 'not_gray', duration=1.2)
+plotshow(img_rgb, 'not_gray', duration=1.8)
