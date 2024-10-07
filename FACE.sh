@@ -8,7 +8,7 @@ SOURCE_FOLDER="./files"
 # image_1.jpg, image_2.jpg, image_3.jpg 
 # (as far as i know the extension can be any valid image format, jpg, png, webp, etc)
 
-PYTHON_SCRIPT="scripts/FACE2.py"
+PYTHON_SCRIPT="./scripts/FACE2.py"
 # this is the python script with the face recognition algorithm
 
 # you don't need to change this (unless you want to use the previous version, FACE1.py, which i don't recommend)
