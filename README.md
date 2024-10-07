@@ -16,10 +16,9 @@ You'll need these packages:
 or just: pip install opencv-python numpy matplotlib
 
 ### ***To run***
-* git clone https://github.com/benaytms/faces_recognizer2.git
-* cd faces_recognizer2
-* mkdir files recognized_files  
-* (check the FACE shell file comments to understand how and where to save the images in order to work)
+* *git clone https://github.com/benaytms/faces_recognizer2.git*
+* *cd faces_recognizer2*
+* SEE THE COMMENTS ON FACE.sh FILE TO SEE HOW TO SAVE THE IMAGES YOU WANT TO TEST
 * bash FACE.sh
 
 As i said earlier, it's not perfect, so don't worry if some faces don't get recognize.  
