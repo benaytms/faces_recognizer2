@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_FOLDER="files"
+SOURCE_FOLDER="./files"
 # this is where the images you want to identify faces go
 
 # you'll need to save them with the following standard: image_{number}
@@ -13,7 +13,7 @@ PYTHON_SCRIPT="scripts/FACE2.py"
 
 # you don't need to change this (unless you want to use the previous version, FACE1.py, which i don't recommend)
 
-SAVE_FOLDER="recognized_files"
+SAVE_FOLDER="./recognized_files"
 # this is where the files will be saved after you use the script
 
 # i suggest you leave it as it is and if you want you can copy from there
