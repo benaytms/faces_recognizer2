@@ -4,9 +4,12 @@
 import cv2
 import sys
 import os
-import numpy as np
-from matplotlib import pyplot as plt
 from time import sleep
+
+import numpy as np
+import matplotlib
+matplotlib.use("tkagg")
+import matplotlib.pyplot as plt
 
 def plotshow(image, flag, duration=0.65):
     if flag == 'gray':
