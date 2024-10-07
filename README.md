@@ -3,11 +3,15 @@
 ![the gang gets recognized](image.png)
 
 The first program (which is included in this too, FACE.py) uses Haar Cascade Classifier  
-which doesn't work great when faces aren't frontal and very clear to see.  
+which can work better with multiple faces but doesn't work great if the faces aren't easily seen.
 
-This second one works much better, it uses Single Shot MultiBox Detector (SSD)
-which is a classifier that uses a single neural network.  
-It's able to find faces in much harder instances and situations; Even though it's not perfect - comes closer than the former.
+This second one works by using Single Shot MultiBox Detector (SSD)
+which is a classifier that has great perfomance but still, compared to others
+like FaceNet, is not that reliable.  
+
+That being said many faces might end up being not recognized, so take this
+in consideration.
+
 
 ### ***If you want to test it***  
 You'll need these packages:  
