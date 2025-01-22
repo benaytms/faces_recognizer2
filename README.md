@@ -2,17 +2,6 @@
 
 ![the gang gets recognized](image.png)
 
-The first program (which is included in this too, FACE.py) uses Haar Cascade Classifier  
-which can work better with multiple faces but doesn't work great if the faces aren't easily seen.
-
-This second one works by using Single Shot MultiBox Detector (SSD)
-which is a classifier that has great perfomance but still, compared to others
-like FaceNet, is not that reliable.  
-
-That being said many faces might end up being not recognized, so take this
-in consideration.
-
-
 ### ***If you want to test it***  
 You'll need these packages:  
 * *OpenCV: pip install opencv-python*  
