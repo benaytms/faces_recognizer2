@@ -2,6 +2,8 @@
 
 ![the gang gets recognized](image.png)
 
+*Face recognition algorithm made with in Python with OpenCV package*
+
 ### ***If you want to test it***  
 You'll need these packages:  
 * *OpenCV: pip install opencv-python*  
